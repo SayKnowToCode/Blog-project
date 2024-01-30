@@ -21,7 +21,7 @@ const NewPost = ({ handleSubmit, postTitle, setPostTitle, postBody, setPostBody}
                   value={postBody}
                   onChange={(e) => setPostBody(e.target.value)}
               />
-              <button type="submit" onSubmit={handleSubmit}>Submit</button>
+              <button type="submit">Submit</button>
           </form>
       </main>
   )
